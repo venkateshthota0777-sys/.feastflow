@@ -1,0 +1,21 @@
+{
+  "name": "feastflow-eventeats-exchange",
+  "version": "1.0.0",
+  "description": "FeastFlow: EventEats Exchange - Event Catering Marketplace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview"
+  },
+  "keywords": [
+    "catering",
+    "marketplace",
+    "react",
+    "vite",
+    "tailwindcss",
+    "events"
+  ],
+  "author": "FeastFlow Team",
+  "license": "MIT"
+}

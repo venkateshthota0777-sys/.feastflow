@@ -1,0 +1,10 @@
+HOW TO RUN (Live Server)
+1. Open the folder "FeastFlow_EventEats_Exchange_Hackathon" in VS Code.
+2. Right-click the index.html that is in this top-level folder (NOT the one inside client/) -> "Open with Live Server".
+3. The app opens at http://127.0.0.1:5500/index.html. No npm install needed.
+
+NOTES
+- Pages use hash URLs (index.html#/menu-builder), so refresh and back/forward work under Live Server.
+- Google Fonts load from the internet; the site still works offline with a fallback font.
+- To edit the source: cd client && npm install && npm run dev  (build with: npm run build)
+  Then copy client/dist/* into this top-level folder to update the Live Server version.
